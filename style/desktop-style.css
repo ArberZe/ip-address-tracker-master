@@ -1,0 +1,30 @@
+@media only screen and (min-width: 960px) {
+
+    top-div>div {
+        border-radius: 36px;
+    }
+
+    #top-div input {
+        width: 30%;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    #top-div button {
+        width: 46px;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    #info-div {
+        flex-direction: row;
+        width: 60%;
+        height: 22vh;
+    }
+
+    #info-div .element {
+        width: 100%;
+        border-left: 1px solid rgb(173, 169, 169);
+    }
+
+}
